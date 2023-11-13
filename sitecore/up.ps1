@@ -13,6 +13,26 @@ Param (
 $ErrorActionPreference = "Stop";
 $workingDirectoryPath = ".\topology\sitecore-$Topology";
 
+# *******************************
+
+# Stop IIS if running in this computer
+
+$service=get-service w3svc  -ErrorAction SilentlyContinue
+
+if ($null -ne $service.Name) {
+
+	if ($service.Status -eq 'Running') {        		
+
+		$svcStatus=iisreset /stop
+
+		Write-Host "IIS Stopped..." -ForegroundColor Green
+
+	}
+
+}
+
+# *******************************
+
 # Double check whether init has been run
 $envCheckVariable = "HOST_LICENSE_FOLDER";
 $envCheck = Get-Content (Join-Path -Path ($workingDirectoryPath) -ChildPath .env) -Encoding UTF8 | Where-Object { $_ -imatch "^$envCheckVariable=.+" }

@@ -1,0 +1,51 @@
+﻿---
+ID: "d52fa369-564a-4609-a1eb-aae67c26caba"
+Parent: "9f52f410-3804-40e2-9afa-65a036e9f09e"
+Template: "fe2ef262-7fa0-430e-aa63-b230721a9579"
+Path: /sitecore/content/Headless/Astro/Data/Skills/Full Stack
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16c1f460-a0d1-4992-8eb0-de610c8fb53d"
+      Hint: title
+      Value: Full Stack
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231112T050733Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C55B483C-EA7F-4E76-A066-985F7D9396CA}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2583c9b9-57f7-4b61-afa5-53461598f829"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8e140e6-81f7-4bdf-b0ff-1ac534a057ef"
+      Hint: icon
+      Value: |
+        <image mediaid="{5122E9CC-448A-4944-B31F-75EBBFBECA49}" alt="" height="40" width="40" hspace="" vspace="" />
+    - ID: "d69f2c67-c453-4cd9-a39e-c5b731aaf094"
+      Hint: description
+      Value: "I'm a full stack developer with lot of skills gained over the years. I also bring in domain expertise in areas like banking and finance. I'm a qualified architect and have worked on various end-to-end projects spanning 5 years."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231113T053818Z
